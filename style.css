@@ -1,0 +1,114 @@
+/*      banner and navbar      */
+
+#top{
+	width: 100%;
+	background-image: linear-gradient(#ff9999,#cc99ff);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.left{
+	position: relative;
+	animation-name: l;
+	animation-duration: 2s;
+}
+
+@keyframes l{
+	0%{
+		left: -200px;
+	}
+	100%{
+		left: 0px;
+	}
+}
+
+.right{
+	position: relative;
+	animation-name: r;
+	animation-duration: 2s;
+}
+
+@keyframes r{
+	0%{
+		right: -200px;
+	}
+	100%{
+		right: 0px;
+	}
+}
+
+/*       info section         */
+#info{
+	margin-top: 50px;
+}
+
+.box{
+	background-image: linear-gradient(#b3ffcc,#cc99ff);
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+
+	position: relative;
+	animation-name: box;
+	animation-duration: 2s;
+}
+
+@keyframes box{
+	0%{
+		bottom: -100px;
+	}
+	100%{
+		bottom: 0px;
+	}
+}
+
+/*        online course        */
+.online{
+	margin-top: 50px;
+}
+.online h2::after{
+	content: "";
+	height: 3px;
+	background-color: blue;
+	width: 210px;
+	border-radius: 50px;
+	margin: 5px auto 30px;
+	display: block;
+}
+
+/*      testimonial      */
+
+.testi{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background-image: linear-gradient(#e6ccff, #e6ccff);
+}
+
+.testi h2::after{
+	content: "";
+	height: 3px;
+	background-color: green;
+	width: 170px;
+	border-radius: 50px;
+	margin: 5px auto 20px;
+	display: block;
+}
+
+.testi img{
+	height: 80px;
+	width: 80px;
+}
+
+/*    footer      */
+#footer{
+	background-color: #000;
+	color: #fff;
+	padding: 30px;
+	margin-top: 40px;
+}
+/*     card image setup       */
+.card-img-top{
+  width:100%;
+  height:auto;
+}
